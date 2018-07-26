@@ -7,7 +7,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'Your-API';
+const API_KEY = process.env.YT_API_KEY;
 
 class App extends Component {
   constructor(props){
