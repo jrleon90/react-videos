@@ -1,4 +1,3 @@
-import dotenv from 'dotenv';
 import React, { Component } from 'react';
 import YTSearch from 'youtube-api-search';
 import _ from 'lodash';
@@ -8,9 +7,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-dotenv.config();
-
-const API_KEY = process.env.YT_API_KEY;
+const API_KEY = 'YOUR_KEY';
 
 class App extends Component {
   constructor(props){
